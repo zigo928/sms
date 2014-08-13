@@ -1,0 +1,19 @@
+{
+    "name": "vdopool/sms",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "~4.0"
+    },
+    "authors": [
+        {
+            "name": "gengzhiguo",
+            "email": "gengzhiguo@starschina.com"
+        }
+    ],
+
+    "autoload": {
+        "psr-0": {
+            "Vdopool": "src/"
+        }
+    }
+}

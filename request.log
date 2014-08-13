@@ -1,0 +1,47 @@
+执行日期：20140813180718
+NULL
+
+执行日期：20140813180805
+array(4) {
+  ["access_key"]=>
+  string(16) "vYKdZoOxyO8Zuc3g"
+  ["phone_number"]=>
+  string(11) "13693179034"
+  ["timestamp"]=>
+  string(10) "1407924485"
+  ["signature"]=>
+  string(88) "ZjkzMWI4YTQ1Y2I3Y2YxNzlkY2JhOGJmNmE4NTQ5NDlhOTkzY2VmNTA2ODI5M2I0MWU2ZDRmYTA2OGY5YTg4Nw=="
+}
+
+执行日期：20140813181016
+array(4) {
+  ["access_key"]=>
+  string(16) "xaeL7591aE1uNvwV"
+  ["phone_number"]=>
+  string(11) "13693179034"
+  ["timestamp"]=>
+  string(10) "1407924616"
+  ["signature"]=>
+  string(88) "MTgyNDM4NDk5ZDhlZTNlMGU2YWMwZGY2OGE3NDkxNTZhMjMwYjVhMmVmMjAzODcxZjc0MTc0OWM2YTBjMjQ4ZA=="
+}
+
+执行日期：20140813181042
+object(stdClass)#286 (6) {
+  ["id"]=>
+  string(1) "1"
+  ["user_id"]=>
+  string(1) "2"
+  ["access_key"]=>
+  string(16) "xaeL7591aE1uNvwV"
+  ["secret_key"]=>
+  string(40) "sp8sGL5qH0zGUlnpKrR8SNzvIy4ORqMbS7vMcPiZ"
+  ["created_at"]=>
+  string(19) "2014-08-13 14:57:26"
+  ["updated_at"]=>
+  string(19) "2014-08-13 14:57:26"
+}
+
+执行日期：20140813181058
+Sending TemplateSMS to 13693179034 <br/>Sendind TemplateSMS success!<br/>dateCreated:20140813181058<br/>smsMessageSid:20140813181058294227<br/>{"code":"000000","message":"\u77ed\u4fe1\u53d1\u9001\u6210\u529f"}
+执行日期：20140813181852
+Sending TemplateSMS to 13693179034 <br/>Sendind TemplateSMS success!<br/>dateCreated:20140813181852<br/>smsMessageSid:20140813181852295121<br/>{"code":"000000","message":"\u77ed\u4fe1\u53d1\u9001\u6210\u529f"}
