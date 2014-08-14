@@ -1,5 +1,6 @@
 <?php
 namespace Vdopool;
+use Guzzle\Http\Exception\ClientErrorResponseException;
 
 class Service {
 
@@ -25,9 +26,14 @@ class Service {
     foreach ($data as $k => $v) {
       $postBody->setField($k, $v);
     }
-    // Send the POST request
-    $response = $client->send($request);
-    return $response->getBody();
+    try {
+      // Send the POST request
+      $response = $client->send($request);
+      return $response->getBody();
+    } catch (ClientErrorResponseException $exception) {
+       $responseBody = $exception->getResponse()->getBody(true);
+       return $responseBody;
+    }
   }
 
   /**
@@ -52,9 +58,15 @@ class Service {
     foreach ($data as $k => $v) {
       $postBody->setField($k, $v);
     }
-    // Send the POST request
-    $response = $client->send($request);
-    return $response->getBody();
+
+    try {
+      // Send the POST request
+      $response = $client->send($request);
+      return $response->getBody();
+    } catch (ClientErrorResponseException $exception) {
+      $responseBody = $exception->getResponse()->getBody(true);
+      return $responseBody;
+    }
   }
 }
 
